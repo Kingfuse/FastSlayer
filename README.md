@@ -1,7 +1,7 @@
 # FastSlayer
 FastSlayer not test for apex 2.0
 
-Use fastsorc command to enable/disable
+Use fasts command to enable/disable
 
 Skill-Prediction and NGSP bern supported.
 
