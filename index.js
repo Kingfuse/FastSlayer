@@ -53,8 +53,8 @@ module.exports = function SlayerJS(mod) {
         }
     });
 
-    //mod.hook('S_ACTION_STAGE', 9, { order: -10000000, filter: {fake: true} }, event => {
-	mod.hook('S_ACTION_STAGE', 9, event => {
+    mod.hook('S_ACTION_STAGE', 9, { order: -10000000, filter: {fake: true} }, event => {
+	//mod.hook('S_ACTION_STAGE', 9, event => {
 
         if (!isEnabled || event.gameId !== mod.game.me.gameId || mod.game.me.class !== 'slayer') return;
 
